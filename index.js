@@ -12,9 +12,9 @@ const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 const messages = {
     processingImage: 'Processing your image...',
     stillProcessingImage: 'Still processing your image...',
-    imageProcessed: 'Вот, вы в гта:',
+    imageProcessed: 'Here is your image:',
     sendPhotoPrompt: 'Please send a photo. For now, only photos with faces are supported.',
-    adviceAfterFirstImage: 'У бота скоро апдейт! Может будет недоспупен какаое то время! если знаете хоть чуть чуть как на сервер залить код - пишите @peterpaleev',
+    // adviceAfterFirstImage: 'У бота скоро апдейт! Бот может будет недоспупен какаое то время!\n \nесли знаете хоть чуть чуть как на сервер залить код - пишите @peterpaleev',
     failureNotice: 'Failed to process the image.',
 };
 
@@ -106,3 +106,4 @@ async function getImageBufferFromUrl(url) {
 
 
 console.log('✅ Bot is running...');
+

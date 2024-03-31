@@ -18,6 +18,7 @@ exports.processImageWithReplicate = async (imageBuffer) => {
         image: `data:image/jpeg;base64,${imageBase64}`,
         style: "Video game",
         prompt: "pixelated glitchart of close-up of (subject}, ps1 playstation psx gamecube game radioactive dreams screencapture, bryce 3d",
+        // prompt: "anime style, realistic, detailed, colorful, vibrant, high resolution",
         // negative_prompt: "bruises under the eyes, realistic, tired, sad, depressed, sick",
         lora_scale: 1,
         control_depth_strength: 0.4,
